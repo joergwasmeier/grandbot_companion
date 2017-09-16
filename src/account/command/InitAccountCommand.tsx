@@ -6,7 +6,7 @@ import AccountView from "../view/AccountView";
 
 export default class InitAccountCommand extends FabaWebCommand<WebStore> {
     execute(event: InitMedecineEvent) {
-        event.view = <AccountView />;
+        event.view = <AccountView balance={this.data.balance} />;
         event.callBack();
     }
 }

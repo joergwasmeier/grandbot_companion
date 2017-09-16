@@ -8,6 +8,7 @@ import {DrawerEvent} from "../../common/misc/DrawerCommand";
 
 interface IAccountViewProps {
     children?: any
+    balance:number
 }
 
 export default class AccountView extends FabaWebBaseComponent<IAccountViewProps> {
@@ -33,7 +34,7 @@ export default class AccountView extends FabaWebBaseComponent<IAccountViewProps>
                         title="Your current balance"
                     />
                     <CardText expandable={false}>
-                        <h1 style={{textAlign:"center", fontSize:48, marginTop:0, marginBottom:0}}>1`000 CHF</h1>
+                        <h1 style={{textAlign:"center", fontSize:48, marginTop:0, marginBottom:0}}>{this.props.balance} CHF</h1>
                     </CardText>
                 </Card>
 

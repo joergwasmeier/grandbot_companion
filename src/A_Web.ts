@@ -7,6 +7,8 @@ import {setupPage} from "csstips";
 import RootLayout from "./common/RootLayout";
 import Routes from "./common/Routes";
 import DrawerMediator from "./common/misc/DrawerCommand";
+import GetAccountDataEvent from "./account/events/GetAccountDataEvent";
+import AccountMediator from "./account/AccountMediator";
 
 if (process.env.NODE_ENV == "development"){
     require('react-hot-loader/patch');
@@ -20,6 +22,13 @@ export class A_Web extends FabaRuntimeWeb{
             setupPage('#container');
             FabaRuntimeWeb.addServerEndPoint(new FabaApiConnection(process.env.API_URL), "api");
         }
+
+        FabaRuntimeWeb.addMediator(AccountMediator);
+
+        setInterval(()=>{
+            console.log("inter");
+            new GetAccountDataEvent().dispatch();
+        },1000);
 
         super(store , Routes , RootLayout, module);
         window.app = true;
