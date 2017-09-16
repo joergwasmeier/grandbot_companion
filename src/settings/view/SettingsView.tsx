@@ -36,10 +36,10 @@ export default class SettingsView extends FabaWebBaseComponent<ISettingsViewProp
                     </DropDownMenu>
 
                     <div style={{paddingLeft:32, paddingRight:32}}>
-                        <TextField floatingLabelText={"Vertragsnummer"} fullWidth={true} value={"019928477593"}/>
-                        <TextField floatingLabelText={"Passwort"} fullWidth={true} value={"019928477593"} type={"password"} />
+                        <TextField floatingLabelText={"Contractnumber"} fullWidth={true} value={"019928477593"}/>
+                        <TextField floatingLabelText={"Password"} fullWidth={true} value={"019928477593"} type={"password"} />
                         <br/><br/>
-                        <RaisedButton label="Account sperren" secondary={false} fullWidth={true} />
+                        <RaisedButton label="Account block" secondary={false} fullWidth={true} />
                     </div>
 
                 </div>

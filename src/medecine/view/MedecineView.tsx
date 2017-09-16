@@ -28,11 +28,11 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     iconClassNameRight="muidocs-icon-navigation-expand-more"
                     onLeftIconButtonTouchTap={this.handleDrawer}
                 />
-                <h1 style={{padding:16, fontFamily:"Roboto"}}>Tages Medikation</h1>
+                <h1 style={{padding:16, fontFamily:"Roboto"}}>Daily medication</h1>
 
                 <Card style={{marginTop:16, backgroundColor:"#f7f7f7"}}>
                     <CardHeader
-                        title="6:00 Uhr morgens"
+                        title="6:00 morning"
                         avatar={require("./sunrise.png")}
                     />
                     <CardText expandable={false}>
@@ -44,7 +44,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     <CardHeader
                         avatar={require("./midday.png")}
 
-                        title="12:00 Uhr mittags"
+                        title="12:00 Uhr midday"
                     />
                     <CardText expandable={false}>
                         Acetaminophen - Immediate-release: 125 mg to 1 g orally every 4 to 6 hours
@@ -53,7 +53,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
 
                 <Card style={{marginTop:16, backgroundColor:"#bcbcbc"}}>
                     <CardHeader
-                        title="19:00 Uhr Abends"
+                        title="19:00 Uhr evening"
                         avatar={require("./moon.png")}
 
                     />
@@ -64,7 +64,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
 
                 <hr/>
 
-                <h1 style={{padding:16, fontFamily:"Roboto"}}>Gesamte Medikation</h1>
+                <h1 style={{padding:16, fontFamily:"Roboto"}}>Total medidcation</h1>
                 <Card style={{marginTop:16}}>
                     <CardHeader
                         title="Rivaroxaban"
