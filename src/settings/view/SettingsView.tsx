@@ -25,17 +25,22 @@ export default class SettingsView extends FabaWebBaseComponent<ISettingsViewProp
                     onLeftIconButtonTouchTap={this.handleDrawer}
                 />
 
-                <div style={{padding:16}}>
-                    Bank:
+                <div >
+
+                    <div style={{padding:16}}>
+                        <img src={require("./twint_logo_q_pos_rgb.png")} style={{width:"100%"}} />
+                    </div>
+
                     <DropDownMenu value={1}>
                         <MenuItem value={1} primaryText="Raiffeisen Bank" />
                     </DropDownMenu>
 
-                    <TextField floatingLabelText={"Vertragsnummer"} fullWidth={true} value={"019928477593"}/>
-                    <TextField floatingLabelText={"Passwort"} fullWidth={true} value={"019928477593"} type={"password"} />
-
-                    <RaisedButton label="Account sperren" secondary={false} fullWidth={true} />
-
+                    <div style={{paddingLeft:32, paddingRight:32}}>
+                        <TextField floatingLabelText={"Vertragsnummer"} fullWidth={true} value={"019928477593"}/>
+                        <TextField floatingLabelText={"Passwort"} fullWidth={true} value={"019928477593"} type={"password"} />
+                        <br/><br/>
+                        <RaisedButton label="Account sperren" secondary={false} fullWidth={true} />
+                    </div>
 
                 </div>
             </div>

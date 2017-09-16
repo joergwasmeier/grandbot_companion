@@ -23,7 +23,7 @@ export default class AccountView extends FabaWebBaseComponent<IAccountViewProps>
         return (
             <div>
                 <AppBar
-                    title="Bank Account"
+                    title="Doras Account"
                     iconClassNameRight="muidocs-icon-navigation-expand-more"
                     onLeftIconButtonTouchTap={this.handleDrawer}
                 />
