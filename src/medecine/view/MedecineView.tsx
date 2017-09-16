@@ -29,7 +29,8 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     onLeftIconButtonTouchTap={this.handleDrawer}
                 />
                 <h1 style={{padding:16, fontFamily:"Roboto"}}>Tages Medikation</h1>
-                <Card style={{marginTop:16, backgroundColor:"#818181"}}>
+
+                <Card style={{marginTop:16, backgroundColor:"#f7f7f7"}}>
                     <CardHeader
                         title="6:00 Uhr morgens"
                         avatar={require("./sunrise.png")}
@@ -39,7 +40,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     </CardText>
                 </Card>
 
-                <Card style={{marginTop:16, backgroundColor:"#9f9f9f"}}>
+                <Card style={{marginTop:16, backgroundColor:"#dddddd"}} >
                     <CardHeader
                         avatar={require("./midday.png")}
 
@@ -50,10 +51,10 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     </CardText>
                 </Card>
 
-                <Card style={{marginTop:16, backgroundColor:"#eeeeee"}}>
+                <Card style={{marginTop:16, backgroundColor:"#bcbcbc"}}>
                     <CardHeader
                         title="19:00 Uhr Abends"
-                        avatar={require("./evening.png")}
+                        avatar={require("./moon.png")}
 
                     />
                     <CardText expandable={false}>

@@ -25,10 +25,11 @@ export class A_Web extends FabaRuntimeWeb{
 
         FabaRuntimeWeb.addMediator(AccountMediator);
 
+        new GetAccountDataEvent().dispatch();
+
         setInterval(()=>{
-            console.log("inter");
             new GetAccountDataEvent().dispatch();
-        },1000);
+        },10000);
 
         super(store , Routes , RootLayout, module);
         window.app = true;

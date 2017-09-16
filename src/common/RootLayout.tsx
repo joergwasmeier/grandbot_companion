@@ -44,10 +44,13 @@ export default class RootLayout extends FabaWebBaseComponent<IRootLayoutProps> {
             <MuiThemeProvider>
                 <div>
                 <Drawer open={this.props.model.drawerOpen} >
+                    <img src={require("./grandma.jpg")} style={{width:"100%"}} />
+
                     <MenuItem onClick={this.handelAccountMenuItem}>Doras Account</MenuItem>
                     <MenuItem onClick={this.handelMedecineMenuItem}>Health</MenuItem>
-                    <MenuItem onClick={this.handelShoppingMenuItem}>Shopping</MenuItem>
                     <MenuItem onClick={this.handelSettingMenuItem}>Setting</MenuItem>
+
+                    <img src={require("./logo.png")} style={{width:"40%", bottom:40, left:70, position:"absolute"}} />
                 </Drawer>
                 {this.props.childs}
                 </div>
