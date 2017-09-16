@@ -27,7 +27,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                     iconClassNameRight="muidocs-icon-navigation-expand-more"
                     onLeftIconButtonTouchTap={this.handleDrawer}
                 />
-                <h1 style={{padding:16}}>Tages Medikation</h1>
+                <h1 style={{padding:16, fontFamily:"Roboto"}}>Tages Medikation</h1>
                 <Card style={{marginTop:16, backgroundColor:"#818181"}}>
                     <CardHeader
                         title="6:00 Uhr morgens"
@@ -66,7 +66,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
 
                 <hr/>
 
-                <h1 style={{padding:16}}>Gesamte Medikation</h1>
+                <h1 style={{padding:16, fontFamily:"Roboto"}}>Gesamte Medikation</h1>
                 <Card style={{marginTop:16}}>
                     <CardHeader
                         title="Asperin asd 5020"
@@ -102,11 +102,6 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                         550mg asperin 200mg 3er pack. 544453423423
                     </CardText>
                 </Card>
-
-
-                Liste von medikamenten
-                <p>Versicherungsnummer</p>
-
             </div>
         )
     }
