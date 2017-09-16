@@ -8,10 +8,11 @@ export default class ChangeAccountBalance extends FabaNodeCommand<NodeStore> {
         console.log(event);
         this.data.balance -= 15;
 
-        if (this.data.balance > 1400){
+        if (this.data.balance < 1400){
             this.data.balance = 1515;
         }
 
+        event.balance = this.data.balance;
         event.callBack();
     }
 }
