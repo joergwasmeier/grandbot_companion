@@ -41,6 +41,7 @@ export default class AccountView extends FabaWebBaseComponent<IAccountViewProps>
                     <CardHeader
                         title="Your last orders"
                     />
+
                     <CardText expandable={false}>
                         <Table>
                             <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
