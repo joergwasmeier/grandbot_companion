@@ -1,0 +1,30 @@
+{
+  "name": "grandbot_companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joergwasmeier/grandbot_companion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joergwasmeier/grandbot_companion/issues"
+  },
+  "homepage": "https://github.com/joergwasmeier/grandbot_companion#readme",
+  "dependencies": {
+    "@fabalous/core": "^0.5.6",
+    "@fabalous/runtime-node": "0.0.24",
+    "@fabalous/runtime-web": "^0.2.62",
+    "@types/material-ui": "^0.18.0",
+    "csstips": "^0.2.2",
+    "material-ui": "^0.19.1"
+  },
+  "devDependencies": {
+    "typestyle": "^1.4.1"
+  }
+}

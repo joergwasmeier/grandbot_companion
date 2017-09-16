@@ -1,0 +1,10 @@
+{
+  "env": {
+    "development": {
+    },
+    "production": {
+      "presets": ["react-optimize"],
+      "plugins": ["transform-remove-console"]
+    }
+  }
+}
