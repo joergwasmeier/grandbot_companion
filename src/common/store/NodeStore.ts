@@ -1,3 +1,3 @@
 export default class NodeStore{
-    balance:number = 1000;
+    balance:number = 1515;
 }
