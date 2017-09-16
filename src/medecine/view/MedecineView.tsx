@@ -33,7 +33,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                         title="6:00 Uhr morgens"
                     />
                     <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
+                        Xarelto - 100mg oral
                     </CardText>
                 </Card>
 
@@ -42,16 +42,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                         title="12:00 Uhr mittags"
                     />
                     <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
-                    </CardText>
-                </Card>
-
-                <Card style={{marginTop:16, backgroundColor:"#bebebe"}}>
-                    <CardHeader
-                        title="15:00 Uhr Nachmittags"
-                    />
-                    <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
+                        Acetaminophen - Immediate-release: 125 mg to 1 g orally every 4 to 6 hours
                     </CardText>
                 </Card>
 
@@ -60,7 +51,7 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                         title="19:00 Uhr Abends"
                     />
                     <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
+                        Acetaminophen - Immediate-release: 325 mg to 1 g orally every 4 to 6 hours
                     </CardText>
                 </Card>
 
@@ -69,37 +60,24 @@ export default class MedecineView extends FabaWebBaseComponent<IMedecineViewProp
                 <h1 style={{padding:16, fontFamily:"Roboto"}}>Gesamte Medikation</h1>
                 <Card style={{marginTop:16}}>
                     <CardHeader
-                        title="Asperin asd 5020"
+                        title="Rivaroxaban"
                     />
                     <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
-                    </CardText>
-                </Card>
+                        Company: Xarelto (Bayer)
 
-                <Card style={{marginTop:16}}>
-                    <CardHeader
-                        title="Asperin asd 5020"
-                    />
-                    <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
-                    </CardText>
-                </Card>
-
-                <Card style={{marginTop:16}}>
-                    <CardHeader
-                        title="Asperin asd 5020"
-                    />
-                    <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
+                        An anticoagulant medication (blood thinner), which is taken by mouth. It is commonly used to prevent blood clots.
                     </CardText>
                 </Card>
 
                 <Card style={{marginTop:32}}>
                     <CardHeader
-                        title="Asperin asd 5020"
+                        title="Acetaminophen"
                     />
                     <CardText expandable={false}>
-                        550mg asperin 200mg 3er pack. 544453423423
+                        Company: Equate
+
+                        Acetaminophen is a pain reliever and a fever reducer.
+                        Acetaminophen is used to treat many conditions such as headache, muscle aches, arthritis, backache, toothaches, colds, and fevers.
                     </CardText>
                 </Card>
             </div>
